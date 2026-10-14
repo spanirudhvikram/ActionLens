@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- Sensitivity Header Badge -->
+    <TextView
+        android:id="@+id/tvSensitivityBadge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FEE2E2"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="4dp"
+        android:text="HIGH SENSITIVITY"
+        android:textColor="#991B1B"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <!-- Policy Rationale -->
+    <TextView
+        android:id="@+id/tvPrivacyRationale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="This content contains sensitive data. Review the sanitized preview before saving."
+        android:textColor="#334155"
+        android:textSize="14sp" />
+
+    <!-- Section Header -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Sanitized Preview (Safe Version):"
+        android:textColor="#475569"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <!-- Masked Preview Container -->
+    <TextView
+        android:id="@+id/tvMaskedPreview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:background="#F1F5F9"
+        android:padding="12dp"
+        android:text="[REDACTED]"
+        android:textColor="#0F172A"
+        android:textSize="14sp" />
+
+    <!-- Notice -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Original unmasked text is never stored or logged."
+        android:textColor="#64748B"
+        android:textSize="11sp" />
+
+</LinearLayout>

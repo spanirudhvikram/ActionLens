@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Theme Colors -->
+    <color name="primary">#1E3A8A</color>
+    <color name="primary_dark">#172554</color>
+    <color name="primary_light">#DBEAFE</color>
+    <color name="background_light">#F8FAFC</color>
+    <color name="surface_light">#FFFFFFFF</color>
+    <color name="card_stroke">#E2E8F0</color>
+
+    <!-- Typography -->
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#475569</color>
+    <color name="text_muted">#94A3B8</color>
+
+    <!-- Priority Tokens -->
+    <color name="priority_urgent">#DC2626</color>
+    <color name="priority_urgent_bg">#FEE2E2</color>
+    <color name="priority_high">#D97706</color>
+    <color name="priority_high_bg">#FEF3C7</color>
+    <color name="priority_normal">#2563EB</color>
+    <color name="priority_normal_bg">#DBEAFE</color>
+    <color name="priority_low">#64748B</color>
+    <color name="priority_low_bg">#F1F5F9</color>
+
+    <!-- Status Colors -->
+    <color name="status_completed">#16A34A</color>
+    <color name="status_completed_bg">#DCFCE7</color>
+</resources>
